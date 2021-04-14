@@ -1,17 +1,25 @@
-var firstNum = 10;
-var secondNum = 5;
+var sum = 10;
+var fsum= 5;
 
-function addTwo(){
-    sum = firstNum + secondNum;
+function addTwo( fsum, sum){
+   var answer = fsum + sum;
+   console.log(answer);
+   return answer ;
 }
 
-function timesTwo(){
-    answer = firstNum*secondNum;
+function timesTwo(fsum, sum){
+  var answer = sum * fsum;
+  console.log(answer);
+  return answer ;
 }
 
-function divideTwo(){
-    answer = firstNum/secondNum;
+function divideTwo(fsum, sum){
+  var  answer = sum/fsum;
+  console.log(answer);
+  return answer ;
 }
-function subtractTwo(){
-    answer= firstnum-secondNum;
+function subtractTwo(num){
+    answer = num-fsum;
+console.log(answer);
+return answer ;
 }
